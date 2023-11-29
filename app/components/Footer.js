@@ -10,12 +10,12 @@ const Footer = () => {
   return (
     <footer className=" text-white lg:h-96 max-md:h-full flex items-center  mt-20 relative scroll-smooth">
       <Link href={'#up'}>
-        <button className="bg-white rounded-full h-12 w-12 absolute top-0 border-t-4 border-cyan-950  right-1/2 mb-4" aria-label='up'>
+        <button className="bg-white rounded-full h-12 w-12 absolute top-0 border-t-4 border-cyan-950  right-1/2 mb-4" aria-label="up">
           <FontAwesomeIcon icon={faArrowUp} className="h-12 w-12  text-cyan-700" />
         </button>
       </Link>
-      <section className="flex max-md:flex-col max-md:items-center justify-around max-md:justify-evenly max-md:py-4 gap-4 w-full h-full mt-10 pt-12 bg-[hsl(216,100%,17%)] text-[12px] max-md:px-3">
-        <div className='w-full'>
+      <section className="flex max-md:flex-col max-md:items-center  max-md:justify-evenly max-md:py-4 gap-4 w-full h-full mt-10 pt-12 bg-[hsl(216,100%,17%)] text-[12px] max-md:px-3">
+        <div className="w-full lg:ml-6">
           <div className="lg:mb-4 lg:ml-[-20px] lg:mt-[-20px] ">
             <Image src="/logo.png" alt="logo perusahan" width={200} height={100} quality={100} />
           </div>
@@ -35,10 +35,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='w-full'>
+        <div className="w-full">
           <h1 className="mb-4">Recent Projects</h1>
           <div className="flex my-2">
-            <Image src="/hero.jpg" width={100} height={100} alt="gambar gedung" className="rounded-lg max-md:mr-2 max-md:h-16 max-md:w-16" />
+            <Image src="/hero.jpg" width={64} height={64} alt="gambar gedung" className="rounded-lg max-md:mr-2 max-md:h-16 max-md:w-16" />
             <p>
               2972 Westheimer Rd. <br /> santa Ana, Illions 85485.
             </p>
@@ -50,7 +50,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='w-full'>
+        <div className="w-full">
           <h1>Contact Info</h1>
           <p className="mb-4">
             2972 Westheimer Rd. santa Ana, <br /> Illions 85485
