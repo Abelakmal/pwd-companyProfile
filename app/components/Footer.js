@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="w-full">
           <h1 className="mb-4">Recent Projects</h1>
           <div className="flex my-2">
-            <Image src="/hero.jpg" width={64} height={64} alt="gambar gedung" className="rounded-lg max-md:mr-2 max-md:h-16 max-md:w-16" />
+            <Image src="/hero.jpg" width={100} height={100} alt="gambar gedung" className="rounded-lg mr-2 h-16 object-cover" />
             <p>
               2972 Westheimer Rd. <br /> santa Ana, Illions 85485.
             </p>

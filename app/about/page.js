@@ -30,7 +30,7 @@ const About = () => {
           <Image src="/aboutImg.jpg" width={500} height={100} alt="bangunan belum jadi" className="w-72 h-96 rounded-xl object-cover" />
         </div>
         <div className="lg:ml-20 max-md:mx-4">
-          <h2 className="font-bold text-orange-500 max-md:text-2xl max-md:py-6">About us</h2>
+          <h2 className="font-bold text-green-950 max-md:text-2xl max-md:py-6">About us</h2>
           <h3 className="font-semibold text-3xl text-cyan-950 my-5">
             Building a legacy <br />
             of Success

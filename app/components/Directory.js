@@ -11,7 +11,7 @@ const Directory = ({directory}) => {
         </Link>{' '}
         {'>'}
         {' '}
-        <span className="text-orange-500 font-bold max-md:text-sm">{directory}</span>
+        <span className="text-green-900 font-bold max-md:text-sm">{directory}</span>
       </span>
     </section>
   );

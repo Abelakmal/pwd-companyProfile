@@ -15,22 +15,22 @@ const Services = () => {
         <ul className=" grid grid-cols-2 max-md:grid-cols-1 mt-6 gap-4 text-center lg:p-20 max-md:p-8">
           <li className="lg:hover:bg-white max-md:bg-white  lg:w-96 h-64 max-md:p-2 lg:hover:shadow-xl max-md:shadow-xl group lg:hover:rounded-lg max-md:rounded-lg flex flex-col items-center justify-center">
             <FontAwesomeIcon icon={faClipboardList} className="text-[rgb(22,54,105)] h-12 lg:group-hover:text-orange-400 max-md:text-orange-400" />
-            <h3 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Management</h3>
+            <h2 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Management</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet perferendis </p>
           </li>
           <li className="lg:hover:bg-white max-md:bg-white  lg:w-96 h-64 max-md:p-2 lg:hover:shadow-xl max-md:shadow-xl group lg:hover:rounded-lg max-md:rounded-lg flex flex-col items-center justify-center">
             <FontAwesomeIcon icon={faHelmetSafety} className="text-[rgb(22,54,105)] h-12 lg:group-hover:text-orange-400 max-md:text-orange-400" />
-            <h3 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Engineering</h3>
+            <h2 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Engineering</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet perferendis </p>
           </li>
           <li className="lg:hover:bg-white max-md:bg-white  lg:w-96 h-64 max-md:p-2 lg:hover:shadow-xl max-md:shadow-xl group lg:hover:rounded-lg max-md:rounded-lg flex flex-col items-center justify-center">
             <FontAwesomeIcon icon={faPaintRoller} className="text-[rgb(22,54,105)] h-12 lg:group-hover:text-orange-400 max-md:text-orange-400" />
-            <h3 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Renovations</h3>
+            <h2 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Renovations</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet perferendis </p>
           </li>
           <li className="lg:hover:bg-white max-md:bg-white  lg:w-96 h-64 max-md:p-2 lg:hover:shadow-xl max-md:shadow-xl group lg:hover:rounded-lg max-md:rounded-lg flex flex-col items-center justify-center">
             <FontAwesomeIcon icon={faScrewdriverWrench} className="text-[rgb(22,54,105)] h-12 lg:group-hover:text-orange-400 max-md:text-orange-400" />
-            <h3 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Maintenance</h3>
+            <h2 className="font-bold my-1 lg:group-hover:border-b-2 border-b-2 lg:group-hover:border-orange-400 max-md:border-orange-400 w-max ">Maintenance</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet perferendis </p>
           </li>
         </ul>
