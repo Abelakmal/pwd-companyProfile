@@ -7,12 +7,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="fixed z-50 ">
-      <section className="flex justify-around max-md:justify-between max-md:pr-6    p-3 bg-slate-600 text-white w-screen items-center ">
-        <div className="lg:w-1/2">
+      <section className="flex justify-around max-md:justify-between max-md:pr-6 max-xl:justify-between   p-3 bg-slate-600 text-white w-screen items-center ">
+        <div className="xl:w-1/2">
           <Image src="/logo.png" alt="logo perusaan" width={140} height={100} quality={100} />
         </div>
 
-        <ul className="lg:flex justify-around w-1/2 max-md:hidden">
+        <ul className="xl:flex justify-around w-1/2 max-md:hidden max-xl:hidden max-xl:justify-between">
           <li>
             <Link href="/" className="hover:text-cyan-700 hover:underline font-medium">
               Home
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div>
           <button
             type="button"
-            className="relative lg:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            className="relative xl:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             aria-controls="mobile-menu"
             aria-expanded="false"
             onClick={() => setOpen(!open)}

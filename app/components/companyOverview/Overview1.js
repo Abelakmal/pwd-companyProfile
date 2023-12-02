@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const Overview1 = () => {
   return (
-    <section className="lg:p-20 max-md:text-sm max-md:p-10">
-      <h1 className="text-orange-500 font-bold">Building a Legacy</h1>
+    <section className="lg:p-20 max-md:text-sm max-md:p-10 max-lg:p-20">
+      <h1 className="text-orange-800 font-bold">Building a Legacy</h1>
       <h2 className="text-cyan-950 text-4xl font-bold my-2">
         Building a Legacy <br /> of Success
       </h2>
@@ -17,10 +17,10 @@ const Overview1 = () => {
             concrete and steel
           </p>
           <Link href="/about">
-            <button className="bg-orange-500 text-white p-1 rounded hover:bg-orange-600 mt-2">More {'>'}</button>
+            <button className="bg-orange-800 text-white p-1 rounded hover:bg-orange-900 mt-2">More {'>'}</button>
           </Link>
         </div>
-        <ul className="flex bg-orange-50 lg:h-64 lg:p-12 lg:gap-2 max-md:flex-col max-md:justify-evenly max-md:items-center h-max max-md:mt-9 max-md:py-4">
+        <ul className="flex bg-orange-50 lg:h-64 lg:p-12 lg:gap-2 max-md:flex-col max-md:justify-evenly max-md:items-center h-max max-md:mt-9 max-lg:mt-9 max-md:py-4">
           <li className="hover:border-2 group max-md:p-8  w-52 rounded-3xl hover:bg-white flex flex-col justify-center hover:shadow-lg">
             <FontAwesomeIcon icon={faPuzzlePiece} className="text-orange-500 h-12" />
             <h1 className="font-bold py-1 text-cyan-950 text-center">Strategy</h1>

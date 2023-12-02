@@ -15,10 +15,10 @@ const Teams = async () => {
           <h1 className="font-bold text-3xl text-cyan-900 ">Meet Our Teams</h1>
           <p className="my-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam reprehenderit facere eum nesciunt </p>
         </section>
-        <section className="bg-[rgb(242,243,246)] w-full grid grid-cols-4 max-md:grid-cols-1 max-md:gap-2 max-md:p-3 justify-evenly">
+        <section className="bg-[rgb(242,243,246)] w-screen grid grid-cols-4 max-md:grid-cols-1 max-xl:grid-cols-2 max-md:gap-2 max-md:p-3">
           {results.map((item, index) => {
             return (
-              <div className="bg-white rounded-md p-6 shadow-md w-max flex flex-col items-center justify-center" key={item.id.name}>
+              <div className="bg-white rounded-md p-6 shadow-md w-full flex flex-col items-center justify-center" key={item.id.name}>
                 <h2 className="flex">
                   Active <div className="w-4 bg-green-500 rounded-full mt-1 h-4 ml-2"></div>
                 </h2>
