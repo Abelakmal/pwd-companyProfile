@@ -2,6 +2,7 @@ import React from 'react';
 import Directory from '../components/Directory';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClipboardList, faHelmetSafety, faPaintRoller, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import Overview6 from '../components/companyOverview/Overview6';
 
 const Services = () => {
   return (
@@ -35,6 +36,7 @@ const Services = () => {
           </li>
         </ul>
       </section>
+      <Overview6 />
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import Directory from '../components/Directory';
 import Image from 'next/image';
+import Overview6 from '../components/companyOverview/Overview6';
 
 const Teams = async () => {
   const respone = await fetch('https://randomuser.me/api/?results=4');
@@ -35,6 +36,7 @@ const Teams = async () => {
           <div></div>
         </section>
       </section>
+      <Overview6 />
     </section>
   );
 };

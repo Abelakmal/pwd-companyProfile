@@ -11,6 +11,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Overview6 from '../components/companyOverview/Overview6';
 
 const About = () => {
   return (
@@ -76,6 +77,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Overview6 />
     </section>
   );
 };

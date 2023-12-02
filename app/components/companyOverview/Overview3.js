@@ -29,7 +29,6 @@ const Overview3 = () => {
           In the dynamic realm of construction, every structure we build tells a story of craftsmanship and dedication. From the foundation to the finishing touches, we approach each project with a passion for creating enduring landmarks.
           Our experienced team brings expertise to every facet of construction, ensuring that each endeavor reflects not only our commitment to quality but also our vision for a sustainable and impactful future.
         </p>
-        <button className="text-white bg-orange-800 hover:bg-orange-900 p-1 rounded mt-6">More {'>'}</button>
       </div>
     </section>
   );
