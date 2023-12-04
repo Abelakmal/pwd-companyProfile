@@ -33,7 +33,7 @@ const Navbar = () => {
               Teams
             </Link>
           </li>
-          <li className='bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600'>
+          <li className='bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600 text-black'>
             <Link href='/contact' >
               Contact
             </Link>
