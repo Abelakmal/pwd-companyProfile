@@ -7,7 +7,7 @@ const Teams = async () => {
   const respone = await fetch('https://randomuser.me/api/?results=4');
   const { results } = await respone.json();
   console.log(results[0]);
-  new FormData()
+  new FormData();
   return (
     <section>
       <Directory directory={'Teams'} />
@@ -20,9 +20,7 @@ const Teams = async () => {
           {results.map((item, index) => {
             return (
               <div className="bg-white rounded-md p-6 shadow-md w-full flex flex-col items-center justify-center" key={item.id.name}>
-                <h2 className="flex">
-                  Active <div className="w-4 bg-green-500 rounded-full mt-1 h-4 ml-2"></div>
-                </h2>
+                <h2 className="text-xl font-semibold">Engineer</h2>
                 <Image src={item.picture.large} width={300} height={200} alt="test" className="rounded-full" />
                 <ul className="mt-10">
                   <li>Name : {`${item.name.first}  ${results[0].name.last}`}</li>

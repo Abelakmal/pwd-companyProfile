@@ -7,10 +7,10 @@ const Overview3 = () => {
         <div className="h-full">
           <img src="/img1.webp" alt="gambar bangunan" />
         </div>
-        <div className="lg:row-span-2">
+        <div className="xl:row-span-2">
           <img src="/img3.jpg" alt="gambar bangunan" className=" h-full object-cover" />
         </div>
-        <div className="h-full max-md:h-32 w-full  max-md:col-start-1 max-md:col-end-3 ">
+        <div className="h-full max-md:h-32 w-full max-xl:col-span-2   max-md:col-start-1 max-md:col-end-3 ">
           <img src="/img2.jpg" alt="gambar bangunan" className=" w-full h-full object-cover" />
         </div>
       </div>

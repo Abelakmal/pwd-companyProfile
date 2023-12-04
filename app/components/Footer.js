@@ -14,7 +14,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faArrowUp} className="h-12 w-12  text-cyan-700" />
         </button>
       </Link>
-      <section className="flex max-md:flex-col max-md:items-center  max-md:justify-evenly max-md:py-4 gap-4 w-full h-full mt-10 pt-12 bg-[hsl(216,100%,17%)] text-[12px] max-md:px-3">
+      <section className="flex max-md:flex-col max-md:items-center  max-md:justify-evenly max-md:py-4 p-2 gap-4 w-full h-full mt-10 pt-12 bg-[hsl(216,100%,17%)] text-[12px] max-md:px-3">
         <div className="w-full lg:ml-6">
           <div className="lg:mb-4 lg:ml-[-20px] lg:mt-[-20px] ">
             <Image src="/logo.png" alt="logo perusahan" width={200} height={100} quality={100} />

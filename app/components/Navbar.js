@@ -33,6 +33,11 @@ const Navbar = () => {
               Teams
             </Link>
           </li>
+          <li className='bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600'>
+            <Link href='/contact' >
+              Contact
+            </Link>
+          </li>
         </ul>
         <div>
           <button
@@ -56,7 +61,7 @@ const Navbar = () => {
         </div>
       </section>
       {open && (
-        <section className="h-screen w-screen bg-slate-600">
+        <section className="h-screen w-screen bg-slate-600 xl:hidden">
           <ul className="flex flex-col justify-evenly items-center h-full text-white">
             <li>
               <Link href="/" className="hover:text-cyan-700 hover:underline font-medium" onClick={() => setOpen(!open)}>
@@ -78,6 +83,11 @@ const Navbar = () => {
                 Teams
               </Link>
             </li>
+            <li className='bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600'>
+            <Link href='/contact' >
+              Contact
+            </Link>
+          </li>
           </ul>
         </section>
       )}

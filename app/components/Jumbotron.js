@@ -19,22 +19,22 @@ const Jumbotron = () => {
           </div>
         </div>
         <div className="z-50 flex justify-center w-full">
-          <ul className="h-28 bg-[rgb(22,54,105)] opacity-80 text-white w-full  rounded-t-md flex justify-evenly  max-md:text-xs  items-center">
-            <li className="group hover:bg-orange-500 w-full h-full text-center  max-md:pt-10">
-              <span className="xl:text-2xl max-xl:text-3xl font-bold border-b-2 border-orange-500 group-hover:border-[rgb(22,54,105)]">37 </span>Project <br />
-              <span className="font-bold xl:text-3xl max-xl:text-3xl">Designs</span>
+          <ul className="h-28 bg-[rgb(22,54,105)] opacity-80 text-white w-full  rounded-t-md flex justify-evenly  items-center">
+            <li className="group hover:bg-orange-500 w-full h-full text-center   max-md:pt-10">
+              <span className="xl:text-2xl max-xl:text-3xl font-bold max-md:text-xs border-b-2 border-orange-500 group-hover:border-[rgb(22,54,105)]">37 </span>Project <br />
+              <span className="font-bold xl:text-3xl max-xl:text-3xl max-md:text-xs">Designs</span>
             </li>
-            <li className="hover:bg-orange-500 w-full h-full text-center group max-md:pt-10">
-              <span className="xl:text-2xl max-xl:text-3xl font-bold border-b-2 border-orange-500 group-hover:border-[rgb(22,54,105)]">97 </span>Project <br />
-              <span className="font-bold xl:text-3xl max-xl:text-3xl">Clients</span>
+            <li className="hover:bg-orange-500 w-full h-full text-center group max-md:pt-10 ">
+              <span className="xl:text-2xl max-xl:text-3xl font-bold max-md:text-xs border-b-2 border-orange-500 group-hover:border-[rgb(22,54,105)]">97 </span>Project <br />
+              <span className="font-bold xl:text-3xl max-xl:text-3xl max-md:text-xs">Clients</span>
             </li>
-            <li className="hover:bg-orange-500 w-full h-full text-center group max-md:pt-10">
-              <span className="xl:text-2xl max-xl:text-3xl font-bold border-b-2 border-orange-500 group-hover:border-[rgb(22,54,105)]">25 </span>Complete <br />
-              <span className="font-bold xl:text-3xl max-xl:text-3xl">Projects</span>
+            <li className="hover:bg-orange-500 w-full h-full text-center group max-md:pt-10 ">
+              <span className="xl:text-2xl max-xl:text-3xl font-bold border-b-2 max-md:text-xs border-orange-500 group-hover:border-[rgb(22,54,105)]">25 </span>Complete <br />
+              <span className="font-bold xl:text-3xl max-xl:text-3xl max-md:text-xs">Projects</span>
             </li>
-            <li className="hover:bg-orange-500 w-full h-full text-center group max-md:pt-10">
-              <span className="xl:text-2xl max-xl:text-3xl font-bold border-b-2 border-orange-500 group-hover:border-[rgb(22,54,105)]">97% </span>Clients <br />
-              <span className="font-bold xl:text-3xl max-xl:text-3xl">Satisfaction</span>
+            <li className="hover:bg-orange-500 w-full h-full text-center group max-md:pt-10 ">
+              <span className="xl:text-2xl max-xl:text-3xl font-bold border-b-2 max-md:text-xs border-orange-500 group-hover:border-[rgb(22,54,105)]">97% </span>Clients <br />
+              <span className="font-bold xl:text-3xl  max-xl:text-3xl max-md:text-xs">Satisfaction</span>
             </li>
           </ul>
         </div>
