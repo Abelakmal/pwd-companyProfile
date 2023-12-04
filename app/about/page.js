@@ -15,13 +15,13 @@ import Overview6 from '../components/companyOverview/Overview6';
 
 const About = () => {
   return (
-    <section >
+    <section>
       <Directory directory={'About us'} />
       <section className="flex max-md:flex-col max-md:items-center max-xl:flex-col justify-center xl:mt-32 max-md:mt-12 max-xl:mt-20 max-xl:p-12 ">
-        <h3 className="font-semibold text-3xl text-cyan-950 my-5 block xl:hidden">
+        <h1 className="font-semibold text-3xl text-cyan-950 my-5 block xl:hidden">
           Building a legacy <br />
           of Success
-        </h3>
+        </h1>
         <div className="xl:w-1/2 xl:ml-20 max-md:mx-4">
           <div className="h-20 bg-[rgb(130,191,251)] text-cyan-950 absolute opacity-80 rounded-r-xl mt-20">
             <h2 className="flex items-center font-bold text-xl ">
