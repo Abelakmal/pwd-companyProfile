@@ -10,7 +10,7 @@ const Overview2 = () => {
           throught our efforts and expertise.
         </p>
       </div>
-      <Image src="/hero.jpg" width={500} height={500} alt='gambar bangunan' className="w-screen h-96 object-cover" />
+      <Image src="/hero.webp" width={500} height={500} alt='gambar bangunan' className="w-screen h-96 object-cover" />
     </section>
   );
 };

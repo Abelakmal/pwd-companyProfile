@@ -1,7 +1,7 @@
 import React from 'react';
 import Directory from '../components/Directory';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMessage, faPhone } from '@fortawesome/free-solid-svg-icons';
+import {  faPhone } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 
 const page = () => {
