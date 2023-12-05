@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="fixed z-50 ">
       <section className="flex justify-around max-md:justify-between max-md:pr-6 max-xl:justify-between   p-3 bg-slate-600 text-white w-screen items-center ">
         <div className="xl:w-1/2">
+          <Link href={'/'} aria-label='logo perusahaan'>
           <Image src="/logo.webp" alt="logo perusaan" width={140} height={100} quality={100} />
+          </Link>
         </div>
 
         <ul className="xl:flex justify-around w-1/2 max-md:hidden max-xl:hidden max-xl:justify-between">
