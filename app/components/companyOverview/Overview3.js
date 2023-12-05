@@ -11,7 +11,7 @@ const Overview3 = () => {
             The one of the largest <br /> construction
           </span>
         </h1>
-        <Image src={'/img1.webp'} width={800} height={200} className='block lg:hidden my-4' alt='gambar bangunan'/>
+        <Image src={'/img1.webp'} width={800} height={200} className="block lg:hidden my-4" alt="gambar bangunan" />
         <p className="mb-2">
           standing at the forefront of the industry. Our commitment to excellence defines us as we undertake projects that shape the world around us. With precision, innovation, and a relentless pursuit of quality, we have become a trusted
           name, transforming visions into reality.
@@ -21,7 +21,9 @@ const Overview3 = () => {
           Our experienced team brings expertise to every facet of construction, ensuring that each endeavor reflects not only our commitment to quality but also our vision for a sustainable and impactful future.
         </p>
       </div>
-      <Image src={'/img1.webp'} width={800} height={200} className='hidden lg:block' alt='gambar bangunan'/>
+      <div>
+        <Image src={'/img1.webp'} width={800} height={200} className="hidden lg:block" alt="gambar bangunan" />
+      </div>
     </section>
   );
 };
