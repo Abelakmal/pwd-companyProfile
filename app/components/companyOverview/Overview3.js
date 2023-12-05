@@ -11,7 +11,7 @@ const Overview3 = () => {
             The one of the largest <br /> construction
           </span>
         </h1>
-        <Image src={'/img1.webp'} width={828} height={552} className="block lg:hidden my-4" alt="gambar bangunan" />
+        <Image src={'/img1.webp'} width={1280} height={ 853} className="block lg:hidden my-4" alt="gambar bangunan" />
         <p className="mb-2">
           standing at the forefront of the industry. Our commitment to excellence defines us as we undertake projects that shape the world around us. With precision, innovation, and a relentless pursuit of quality, we have become a trusted
           name, transforming visions into reality.
