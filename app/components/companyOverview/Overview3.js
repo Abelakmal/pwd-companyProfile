@@ -8,10 +8,10 @@ const Overview3 = () => {
           <img src="/img1.webp" alt="gambar bangunan" />
         </div>
         <div className="xl:row-span-2">
-          <img src="/img3.wep" alt="gambar bangunan" className=" h-full object-cover" />
+          <img src="/img3.webp" alt="gambar bangunan" className=" h-full object-cover" />
         </div>
         <div className="h-full max-md:h-32 w-full max-xl:col-span-2   max-md:col-start-1 max-md:col-end-3 ">
-          <img src="/img2.wep" alt="gambar bangunan" className=" w-full h-full object-cover" />
+          <img src="/img2.webp" alt="gambar bangunan" className=" w-full h-full object-cover" />
         </div>
       </div>
       <div className="lg:w-1/2  p-2">
