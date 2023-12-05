@@ -1,7 +1,7 @@
 import React from 'react';
 import Directory from '../components/Directory';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 
 const page = () => {
@@ -51,14 +51,15 @@ const page = () => {
               </div>
             </li>
           </ul>
-          <div className='max-md:mt-6'>
+          <div className="max-md:mt-6">
             <h2 className="text-2xl font-bold font-mono">Masukan Permitaan</h2>
             <form className="grid grid-cols-2  gap-3 h-max">
               <input type="text" placeholder="Fritsname" maxLength={50} className="bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
               <input type="text" placeholder="Lastname" maxLength={50} className="bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
               <input type="email" placeholder="Mail Adress" className="bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
               <input type="tel" placeholder="Phone Number" maxLength={16} pattern="[0-9]" className="bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
-              <input type="tel" placeholder="Enter Message" className="col-span-2 pb-20 pl-2 bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
+
+              <textarea placeholder="Enter Message" className="col-span-2 pb-20 pl-2 bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg resize-none"></textarea>
               <button className="bg-orange-800 w-max hover:bg-orange-900 text-white p-1 rounded-xl">Submit</button>
             </form>
           </div>
