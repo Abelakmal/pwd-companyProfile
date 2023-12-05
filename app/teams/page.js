@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Overview6 from '../components/companyOverview/Overview6';
 
 const Teams = async () => {
-  const respone = await fetch('https://randomuser.me/api/?results=6', { next: { revalidate: 10 } });
+  const respone = await fetch('https://randomuser.me/api/?results=6', { next: { revalidate: 60  } });
   const { results } = await respone.json();
   const title = ["Project Engineer","Construction Manager","Structural Engineer","Civil Engineering Specialist","Mechanical Project Coordinator","Electrical Systems Engineer"]
   return (
