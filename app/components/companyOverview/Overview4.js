@@ -39,7 +39,7 @@ const Overview4 = () => {
           </ul>
         </div>
       </div>
-      <Image src="/image4.jpg" width={1000} height={100} className="w-screen h-[35rem] object-cover" alt='gambar bangunan' />
+      <Image src="/image4.webp" width={1000} height={100} className="w-screen h-[35rem] object-cover" alt="gambar bangunan" />
     </section>
   );
 };
