@@ -8,9 +8,9 @@ const page = () => {
   return (
     <section>
       <Directory directory={'Contact'} />
-      <div className="flex flex-col items-center justify-center w-screen relative">
+      <div className="flex flex-col items-center justify-center w-screen relative mb-44">
         <Image src={'/map.webp'} width={1400} height={80} alt="map image" className="w-screen h-96 object-cover  mt-[20rem]" />
-        <div className="border-2 rounded-2xl lg:grid grid-cols-2 p-12 gap-2 shadow-2xl absolute bg-white  top-20">
+        <div className="border-2 rounded-2xl lg:grid grid-cols-2 p-12 gap-2 shadow-2xl absolute bg-white   top-20">
           <h1 className="text-cyan-950 font-semibold text-2xl col-span-2">
             Feel free to{' '}
             <span className="font-bold text-orange-800">
@@ -51,7 +51,7 @@ const page = () => {
               </div>
             </li>
           </ul>
-          <div className="max-md:mt-6">
+          <div className="max-md:mt-6 ">
             <h2 className="text-2xl font-bold font-mono">Masukan Permitaan</h2>
             <form className="grid grid-cols-2  gap-3 h-max">
               <input type="text" placeholder="Fritsname" maxLength={50} className="bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
@@ -60,7 +60,7 @@ const page = () => {
               <input type="tel" placeholder="Phone Number" maxLength={16} pattern="[0-9]" className="bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg" />
 
               <textarea placeholder="Enter Message" className="col-span-2 pb-20 pl-2 bg-orange-50 p-2 rounded-lg border-2 border-black shadow-lg resize-none"></textarea>
-              <button className="bg-orange-800 w-max hover:bg-orange-900 text-white p-1 rounded-xl">Submit</button>
+              <button className="bg-orange-800 w-max hover:bg-orange-900 text-white p-1 rounded-xl ">Submit</button>
             </form>
           </div>
         </div>
