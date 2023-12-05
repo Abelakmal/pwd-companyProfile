@@ -4,10 +4,8 @@ import Image from 'next/image';
 import Overview6 from '../components/companyOverview/Overview6';
 
 const Teams = async () => {
-  const respone = await fetch('https://randomuser.me/api/?results=4');
+  const respone = await fetch('https://randomuser.me/api/?results=6', { next: { revalidate: 10 } });
   const { results } = await respone.json();
-  console.log(results[0]);
-  new FormData();
   return (
     <section>
       <Directory directory={'Teams'} />
@@ -16,10 +14,10 @@ const Teams = async () => {
           <h1 className="font-bold text-3xl text-cyan-900 ">Meet Our Teams</h1>
           <p className="my-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam reprehenderit facere eum nesciunt </p>
         </section>
-        <section className="bg-[rgb(242,243,246)] w-screen grid grid-cols-4 max-md:grid-cols-1 max-xl:grid-cols-2 max-md:gap-2 max-md:p-3">
+        <section className="bg-[rgb(242,243,246)] w-full grid gap-4 grid-cols-3 max-md:grid-cols-1 max-xl:grid-cols-2 max-md:gap-2 max-md:p-3">
           {results.map((item, index) => {
             return (
-              <div className="bg-white rounded-md p-6 shadow-md w-full flex flex-col items-center justify-center" key={item.id.name}>
+              <div className="bg-white rounded-md p-6  shadow-md w-full flex flex-col items-center justify-center " key={item.id.name}>
                 <h2 className="text-xl font-semibold">Engineer</h2>
                 <Image src={item.picture.large} width={300} height={200} alt="test" className="rounded-full" />
                 <ul className="mt-10">

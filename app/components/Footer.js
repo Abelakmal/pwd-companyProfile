@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { Roboto } from 'next/font/google';
+
 
 const Footer = () => {
   return (
@@ -25,13 +25,19 @@ const Footer = () => {
           </p>
           <ul className="flex gap-3 mt-4">
             <li>
-              <FontAwesomeIcon icon={faFacebookF} className="text-white h-5" />
+              <Link href={'https://www.facebook.com/'} aria-label='facebook' target='_black'>
+                <FontAwesomeIcon icon={faFacebookF} className="text-white h-5" />
+              </Link>
             </li>
             <li>
+              <Link href={'https://www.instagram.com/'} aria-label='instagram' target='_blank'>
               <FontAwesomeIcon icon={faInstagram} className="text-white h-5" />
+              </Link>
             </li>
             <li>
+              <Link href={'https://twitter.com/'} aria-label='twiter' target='_blank'>
               <FontAwesomeIcon icon={faTwitter} className="text-white h-5" />
+              </Link>
             </li>
           </ul>
         </div>
