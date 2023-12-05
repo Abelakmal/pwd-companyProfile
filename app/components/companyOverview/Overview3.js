@@ -3,7 +3,7 @@ import React from 'react';
 const Overview3 = () => {
   return (
     <section className="lg:flex mx-4 mt-20 gap-3">
-      <div className="grid grid-cols-2 lg:w-1/2 max-md:hidden">
+      <div className="lg:grid grid-cols-2 lg:w-1/2 hidden  ">
         <div className="h-full">
           <img src="/img1.webp" alt="gambar bangunan" />
         </div>
@@ -21,14 +21,14 @@ const Overview3 = () => {
             The one of the largest <br /> construction
           </span>
         </h1>
-        <div className="grid grid-cols-2 lg:w-1/2 max-md:block hidden max-md:mb-12">
+        <div className="grid grid-cols-2 lg:w-1/2 lg:hidden max-md:mb-12">
           <div className="h-full">
-            <img src="/img1.webp" alt="gambar bangunan" />
+            <img src="/img1.webp" alt="gambar bangunan" className=" h-full w-full object-cover" />
           </div>
           <div className="xl:row-span-2">
-            <img src="/img3.jpg" alt="gambar bangunan" className=" h-full object-cover" />
+            <img src="/img3.jpg" alt="gambar bangunan" className=" w-full h-full object-cover" />
           </div>
-          <div className="h-full max-md:h-32 w-full max-xl:col-span-2   max-md:col-start-1 max-md:col-end-3 ">
+          <div className="h-full max-lg:h-32 w-full max-xl:col-span-2   max-md:col-start-1 max-md:col-end-3 ">
             <img src="/img2.jpg" alt="gambar bangunan" className=" w-full h-full object-cover" />
           </div>
         </div>
