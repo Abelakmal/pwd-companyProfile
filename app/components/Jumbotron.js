@@ -5,13 +5,13 @@ import Link from 'next/link';
 const Jumbotron = () => {
   return (
     <section className=" scroll-smooth" id="up">
-      <Image src="/hero3.webp" width={1480}  height={100} alt="main image" className="h-screen absolute object-cover" />
+      <Image src="/hero3.webp" width={1480} height={100} alt="main image" className="h-screen absolute object-cover" />
       <div className="flex flex-col backdrop-blur-sm xl:w-1/2   h-screen justify-between">
         <div className=" text-white flex flex-col justify-center xl:pl-20 max-md:pl-12 mt-28 max-xl:p-20">
           <h1 className="text-4xl max-md:text-2xl font-bold mb-4">
             Engineers & <br /> Contractors
           </h1>
-          <p className="mb-2">Membangun Masa Depan dengan Teknik yang Terdepan dan Dedikasi yang Tak Tertandingi. Inovasi dalam Setiap Pekerjaan, Integritas dalam Setiap Konstruksi.</p>
+          <p className="mb-2">Building the Future with Advanced Engineering and Unmatched Dedication. Innovation in Every Job, Integrity in Every Construction.</p>
           <div>
             <Link href="/services">
               <button className="rounded bg-orange-500 p-1 hover:bg-orange-600">Our services</button>
