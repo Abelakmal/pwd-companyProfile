@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="fixed z-50 ">
       <section className="flex justify-around max-md:justify-between max-md:pr-6 max-xl:justify-between   p-3 bg-slate-600 text-white w-screen items-center ">
         <div className="xl:w-1/2">
-          <Image src="/logo.png" alt="logo perusaan" width={140} height={100} quality={100} />
+          <Image src="/logo.webp" alt="logo perusaan" width={140} height={100} quality={100} />
         </div>
 
         <ul className="xl:flex justify-around w-1/2 max-md:hidden max-xl:hidden max-xl:justify-between">
@@ -33,10 +33,8 @@ const Navbar = () => {
               Teams
             </Link>
           </li>
-          <li className='bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600 text-black'>
-            <Link href='/contact' >
-              Contact
-            </Link>
+          <li className="bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600 text-black">
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
         <div>
@@ -62,7 +60,7 @@ const Navbar = () => {
       </section>
       {open && (
         <section className="h-screen w-screen bg-slate-600 xl:hidden">
-          <ul className="flex flex-col justify-evenly items-center h-full text-white">
+          <ul className="flex flex-col h-1/2 justify-between items-center  text-white">
             <li>
               <Link href="/" className="hover:text-cyan-700 hover:underline font-medium" onClick={() => setOpen(!open)}>
                 Home
@@ -83,11 +81,9 @@ const Navbar = () => {
                 Teams
               </Link>
             </li>
-            <li className='bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600'>
-            <Link href='/contact' >
-              Contact
-            </Link>
-          </li>
+            <li className="bg-orange-500 px-6 py-1 rounded-md hover:bg-orange-600" onClick={() => setOpen(!open)}>
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
         </section>
       )}

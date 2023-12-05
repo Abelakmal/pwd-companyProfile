@@ -26,7 +26,7 @@ const Overview5 = () => {
             the final build, the team demonstrated professionalism and dedication. Highly recommend!"
           </p>
           <div className="flex mt-4">
-            <Image src="/person3.jpg" height={60} width={70} className="rounded-full h-16 object-cover " alt="Leslie M. Reich" />
+            <Image src="/person3.webp" height={60} width={70} className="rounded-full h-16 object-cover " alt="Leslie M. Reich" />
             <div className="text-start ml-4">
               <h3 className="text-orange-800 font-bold">Leslie M. Reich</h3>
               <p>Business</p>
@@ -39,7 +39,7 @@ const Overview5 = () => {
             standards. Exceptional work from a reliable and visionary team.
           </p>
           <div className="flex mt-4">
-            <Image src="/person2.jpg" height={60} width={70} className="rounded-full h-16 object-cover " alt="Domie T. Modie" />
+            <Image src="/person2.webp" height={60} width={70} className="rounded-full h-16 object-cover " alt="Domie T. Modie" />
             <div className="text-start ml-4">
               <h3 className="text-orange-800 font-bold">Domie T. Modie</h3>
               <p>Business</p>

@@ -32,7 +32,7 @@ const About = () => {
               </span>
             </h2>
           </div>
-          <Image src="/aboutImg.jpg" width={500} height={100} alt="bangunan belum jadi" className="w-72 h-96 rounded-xl object-cover" />
+          <Image src="/aboutImg.webp" width={500} height={100} alt="bangunan belum jadi" className="w-72 h-96 rounded-xl object-cover" />
         </div>
         <div className="xl:ml-20 max-md:mx-4">
           <h2 className="font-bold text-green-950   xl:block hidden">About us</h2>

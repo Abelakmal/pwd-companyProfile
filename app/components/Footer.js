@@ -17,7 +17,7 @@ const Footer = () => {
       <section className="flex max-md:flex-col max-md:items-center  max-md:justify-evenly max-md:py-4 p-2 gap-4 w-full h-full mt-10 pt-12 bg-[hsl(216,100%,17%)] text-[12px] max-md:px-3">
         <div className="w-full lg:ml-6">
           <div className="lg:mb-4 lg:ml-[-20px] lg:mt-[-20px] ">
-            <Image src="/logo.png" alt="logo perusahan" width={200} height={100} quality={100} />
+            <Image src="/logo.webp" alt="logo perusahan" width={200} height={100} quality={100} />
           </div>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -38,13 +38,13 @@ const Footer = () => {
         <div className="w-full">
           <h1 className="mb-4">Recent Projects</h1>
           <div className="flex my-2">
-            <Image src="/hero.jpg" width={100} height={100} alt="gambar gedung" className="rounded-lg mr-2 h-16 object-cover" />
+            <Image src="/hero.webp" width={100} height={100} alt="gambar gedung" className="rounded-lg mr-2 h-16 object-cover" />
             <p>
               2972 Westheimer Rd. <br /> santa Ana, Illions 85485.
             </p>
           </div>
           <div className="flex">
-            <Image src="/img2.jpg" width={100} height={100} alt="gambar gedung" className="rounded-lg mr-2 h-16 object-cover" />
+            <Image src="/img2.webp" width={100} height={100} alt="gambar gedung" className="rounded-lg mr-2 h-16 object-cover" />
             <p>
               2972 Westheimer Rd. <br /> santa Ana, Illions 85485.
             </p>

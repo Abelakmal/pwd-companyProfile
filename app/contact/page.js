@@ -9,7 +9,7 @@ const page = () => {
     <section>
       <Directory directory={'Contact'} />
       <div className="flex flex-col items-center justify-center w-screen relative">
-        <Image src={'/map.jpg'} width={1400} height={80} alt="map image" className="w-screen h-96 object-cover  mt-[20rem]" />
+        <Image src={'/map.webp'} width={1400} height={80} alt="map image" className="w-screen h-96 object-cover  mt-[20rem]" />
         <div className="border-2 rounded-2xl lg:grid grid-cols-2 p-12 gap-2 shadow-2xl absolute bg-white  top-20">
           <h1 className="text-cyan-950 font-semibold text-2xl col-span-2">
             Feel free to{' '}
