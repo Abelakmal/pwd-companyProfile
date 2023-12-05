@@ -20,7 +20,7 @@ const Overview1 = () => {
             <button className="bg-orange-800 text-white p-1 rounded hover:bg-orange-900 mt-2">More {'>'}</button>
           </Link>
         </div>
-        <ul className="flex bg-orange-50 lg:h-64 lg:p-12 lg:gap-2 max-md:flex-col max-md:justify-evenly max-md:items-center h-max max-md:mt-9 max-lg:mt-9 max-md:py-4">
+        <ul className="flex bg-orange-50 lg:h-64 lg:p-12 p-4 lg:gap-2 max-md:flex-col max-md:justify-evenly max-md:items-center h-max max-md:mt-9 max-lg:mt-9 max-md:py-4">
           <li className="hover:border-2 group max-md:p-8  w-52 rounded-3xl hover:bg-white flex flex-col justify-center hover:shadow-lg">
             <FontAwesomeIcon icon={faPuzzlePiece} className="text-orange-500 h-12" />
             <h1 className="font-bold py-1 text-cyan-950 text-center">Strategy</h1>
