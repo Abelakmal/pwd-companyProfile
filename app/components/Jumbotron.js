@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Jumbotron = () => {
   return (
     <section className=" scroll-smooth" id="up">
-      <Image src="/hero3.webp" width={1480} height={100} alt="main image" className="h-screen absolute object-cover" />
+      <Image src="/hero3.webp" width={1480} height={100} alt="main image" className="h-full w-full absolute object-cover" />
       <div className="flex flex-col backdrop-blur-sm xl:w-1/2   h-screen justify-between">
         <div className=" text-white flex flex-col justify-center xl:pl-20 max-md:pl-12 mt-28 max-xl:p-20">
           <h1 className="text-4xl max-md:text-2xl font-bold mb-4">
